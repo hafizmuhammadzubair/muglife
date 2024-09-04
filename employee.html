@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MugLife </title>
+<link rel="icon" href=".\img\coffeeicon3.jpg" >
+<link rel="stylesheet" href=".\style.css">
+<style>
+    /* Table Container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Header */
+table thead tr {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Table Rows */
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #ecb80c;
+}
+
+/* Responsive Font Size */
+table th, table td {
+    font-size: 14px;
+}
+
+/* Table Caption */
+table caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Table Footer */
+table tfoot tr {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+table tfoot td {
+    padding: 12px 15px;
+}
+
+</style>
+</head>
+<body>
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./img/coffeeicon3.jpg" width="50" height="50">
+        </a>
+    </div>
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./photoGallery.html">Photograph</a></li>
+        <li><a href="./employee.html">Employee</a></li>
+        <li><a href="./contactus.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h1 > Employee Information </h1>
+
+<div class="table-container">
+
+<table>
+    <caption>This Table belongs to our Employee Data and Information</caption>
+    <tr>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Mobile Number</th>
+        <th>City</th>
+    </tr>
+
+    <tr>
+        <td>Muhammad Abdullah</td>
+        <td>Owner</td>
+        <td>0333-000-9999</td>
+        <td>Faisalabad</td>
+    </tr>
+
+    <tr>
+        <td>Waseem</td>
+        <td>CEO</td>
+        <td>0300-888-7677</td>
+        <td>Faisalabad</td>
+    </tr>
+
+    <tr>
+        <td>Javaid</td>
+        <td>COO</td>
+        <td>0300-767-4433</td>
+        <td>Lahore</td>
+    </tr>
+
+    
+    <tr>
+        <td>Akram</td>
+        <td>Chef</td>
+        <td>0300-431-2322</td>
+        <td>Multan</td>
+    </tr>
+</table>
+</div>
+
+
+</body>
+</html>
